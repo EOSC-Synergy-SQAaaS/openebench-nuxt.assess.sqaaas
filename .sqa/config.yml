@@ -15,42 +15,42 @@ sqa_criteria:
     repos:
       github.com/inab/openebench-nuxt git:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-tangerine-bandicoot.sh
-        container: qc.acc_messy-red-uguisu
+        - /usr/bin/env sh .sqa/script.stinky-tan-moose.sh
+        container: qc.acc_scanty-yellow-termite
   QC.Doc:
     repos:
       github.com/inab/openebench-nuxt find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-plum-chinchilla.sh
-        container: qc.doc_craggy-cinnabar-dalmatian
+        - /usr/bin/env sh .sqa/script.shaggy-cinnabar-sheepdog.sh
+        container: qc.doc_foggy-ochre-jellyfish
       github.com/inab/openebench-nuxt git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-cornflower-quail.sh
-        container: qc.doc_cloudy-cobalt-cuttlefish
+        - /usr/bin/env sh .sqa/script.dorky-brass-newt.sh
+        container: qc.doc_cranky-harlequin-rhinoceros
       github.com/inab/openebench-nuxt markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-myrtle-caiman.sh
-        container: qc.doc_homely-linen-mandrill
+        - /usr/bin/env sh .sqa/script.snoopy-crimson-ant.sh
+        container: qc.doc_pokey-red-hippopotamus
   QC.Lic:
     repos:
       github.com/inab/openebench-nuxt licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-sepia-ant.sh
-        container: qc.lic_shabby-asparagus-burmese
+        - /usr/bin/env sh .sqa/script.slimy-white-sheep.sh
+        container: qc.lic_woolly-amaranth-moth
   QC.Sty:
     repos:
       github.com/inab/openebench-nuxt jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-goldenrod-gorilla.sh
-        container: qc.sty_pokey-mauve-fousek
+        - /usr/bin/env sh .sqa/script.foggy-chocolate-tarsier.sh
+        container: qc.sty_randy-grey-armadillo
       github.com/inab/openebench-nuxt stylelint:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-brass-ragdoll.sh
-        container: qc.sty_gloppy-zucchini-markhor
+        - /usr/bin/env sh .sqa/script.squeaky-tangerine-neanderthal.sh
+        container: qc.sty_cloudy-auburn-gar
   QC.Ver:
     repos:
       github.com/inab/openebench-nuxt get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-scarlet-fish.sh
-        container: qc.ver_leaky-cobalt-cuscus
+        - /usr/bin/env sh .sqa/script.fuzzy-viridian-squirrel.sh
+        container: qc.ver_surly-amber-caiman
 timeout: 1800
